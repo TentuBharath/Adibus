@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #12151c;
+  background: #ffffff;
+}
+
+::selection {
+  background: #ff6b4a;
+  color: #ffffff;
+}
+
+.fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
